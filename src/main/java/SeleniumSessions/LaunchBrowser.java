@@ -9,8 +9,8 @@ public class LaunchBrowser {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		EdgeDriver driver = new EdgeDriver();
-//ChromeDriver driver = new ChromeDriver();
+		// EdgeDriver driver = new EdgeDriver();
+		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
 
 		String title = driver.getTitle();
@@ -23,7 +23,7 @@ public class LaunchBrowser {
 			System.out.println("incorrect title");
 
 		}
-		driver.quit();
+		// driver.quit();
 
 	}
 
