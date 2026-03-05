@@ -20,6 +20,9 @@ public class HeadlessRun {
 		WebDriver driver = new FirefoxDriver(options);
 		 driver.get("https://www.google.com");
 		System.out.println("Title is: " + driver.getTitle());
+		System.out.println("Current URL is: " + driver.getCurrentUrl());
+		System.out.println("Page source length is: " + driver.getPageSource().length());
+		//System.out.println("Page source length is: " + driver.getPageSource());
 		driver.quit();
 	}
 
