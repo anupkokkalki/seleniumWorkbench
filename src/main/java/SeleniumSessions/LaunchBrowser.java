@@ -55,6 +55,7 @@ public class LaunchBrowser {
 
 		// 6. valid but not recommended
 		// SearchContext sc = new RemoteWebDriver(remoteAddress, capabilities);
+		driver.close();
 
 	}
 
